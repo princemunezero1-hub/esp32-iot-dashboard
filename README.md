@@ -4,7 +4,7 @@ A real-time IoT monitoring system that collects sensor readings from an ESP32, t
 
 ## 1. Project Overview
 
-The ESP32 IoT Monitoring Dashboard is designed to demonstrate how Internet of Things (IoT) technology can be used to monitor sensor data remotely.
+The ESP32 IoT Monitoring Dashboard demonstrates how Internet of Things (IoT) technology can be used to monitor sensor data remotely.
 
 The project currently uses an ESP32 and a potentiometer in the Wokwi simulator. The potentiometer simulates changing sensor values, allowing the system to be tested without a physical sensor.
 
@@ -60,8 +60,6 @@ React Web Dashboard
 
 ## 5. Project Structure
 
-The main project structure is organized as follows:
-
 ```text
 ESP32-IOT-DASHBOARD/
 │
@@ -88,6 +86,10 @@ The hardware simulation is developed using Wokwi.
 
 The ESP32 reads changing values from a potentiometer and publishes the readings to an MQTT topic. The backend receives these readings and makes them available to the dashboard.
 
+**Try the ESP32 simulation:**
+
+[Open ESP32 IoT Monitoring Simulation on Wokwi](https://wokwi.com/projects/479511410447096833)
+
 ## 7. Future Improvements
 
 - Replace the simulated potentiometer with a physical sensor.
@@ -97,8 +99,6 @@ The ESP32 reads changing values from a potentiometer and publishes the readings 
 - Integrate additional sensors for wider monitoring applications.
 
 ## 8. Project Objectives
-
-The main objectives are:
 
 - Understand ESP32-based IoT systems.
 - Learn MQTT communication between devices and servers.
@@ -112,7 +112,7 @@ The main objectives are:
 
 ## 10. Repository
 
-[ESP32 IoT Monitoring Dashboard](https://github.com/princemunezero1-hub/esp32-iot-dashboard)
+[ESP32 IoT Monitoring Dashboard on GitHub](https://github.com/princemunezero1-hub/esp32-iot-dashboard)
 
 ---
 
